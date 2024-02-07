@@ -15,7 +15,7 @@ public class Personel {
     }
 
     public String getAdi() {
-        return "Hoşgeldin "+adi;
+        return adi;
     }
 
     public void setAdi(String adi) {
