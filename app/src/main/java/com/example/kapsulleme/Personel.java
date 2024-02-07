@@ -33,7 +33,7 @@ public class Personel {
     public short getYas() {
         if (yas<0){
             System.out.println("Hatalı yaş girdiniz.");
-            yas=0;
+            yas=10;
         }
         return yas;
     }
